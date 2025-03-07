@@ -31,6 +31,23 @@ This data set is exclusively for non-commercial academic research. Scholars or o
 
 ### Index contribution
 
+1. Prepare your own text file (.pdf) and change the file path
+
+2. Download LLMs you prefer and change the model path
+
+3. Text splitting
+    ```python
+    python 1_segments.py 
+    ```
+
+4. Build KG-powered index
+   ```python
+   python 2_generate_index.py
+   ```
+5. Test 
+    ```python 
+    python query.py
+    ```
 
 ### Two-step model training
 
